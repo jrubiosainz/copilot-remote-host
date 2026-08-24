@@ -1,0 +1,20 @@
+{
+  "name": "copilot-remote-host",
+  "version": "1.0.0",
+  "description": "CLI to discover, connect, and monitor remote VS Code Agent Host instances via AHP WebSocket",
+  "bin": {
+    "copilot-remote-host": "./cli.js"
+  },
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "copilot",
+    "agent-host-protocol",
+    "ahp",
+    "vscode",
+    "remote-agents"
+  ],
+  "dependencies": {
+    "ws": "^8.21.3"
+  }
+}
